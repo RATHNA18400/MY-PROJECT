@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="logo_index.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="home.css" rel="stylesheet" type="text/css">
+        <title>CLIMATE CHANGE</title>
+        <style>
+
+            *{
+                line-height: normal;
+            }
+            ul li {
+                cursor: pointer;
+            }
+            .navbar {
+                overflow: hidden;
+                background-color:black;                
+                height:80px; 
+                  
+                }
+
+                .navbar a {
+                float: left;
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;               
+                }
+
+                .dropdown {
+                float: left;
+                overflow: hidden;
+                position: relative;
+                left:1000px;
+                top:25px;
+                }
+
+                .dropdown .dropbtn {
+                font-size: 16px;  
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+                
+                }
+
+                .navbar a:hover, .dropdown:hover .dropbtn {
+                background-color: red;
+                cursor:pointer;
+                }
+
+                .dropdown-content {
+                display: none;
+                position:fixed;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                }
+
+                .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align:left;
+                
+                }
+
+                .dropdown-content a:hover {
+                background-color: #ddd;
+                }
+
+                .dropdown:hover .dropdown-content {
+                display: block!important;
+                }
+                
+                h1{
+                    text-align:center;
+                    font-weight: bolder;
+                    font-size: xx-large;
+                }
+
+                div.background_image{
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                font-size:50px;
+                font-weight: bolder;
+                color:midnightblue;
+                height:90vh;               
+                background-image:url("ocean.jpg");
+                background-blend-mode:overlay;
+                background-attachment:fixed;
+                background-position:center;
+                background-size:cover;
+                width:50%
+                }
+                section.bgimage{
+                    background-color:skyblue;
+                }
+                div.home1 p{
+                    width:min(991px,80%);
+                    margin:auto;
+                    font-size:x-large;
+                    
+                }
+
+                input#submit{
+                    width:150px;
+                    padding:7px;
+                    font-size:16px;
+                    font-family:Arial, Helvetica, sans-serif;
+                    font-weight: 600;
+                    border-radius:3px;
+                    background-color:brown;
+                    color:#fff;
+                    cursor:pointer;
+                    border:1px 1px 5px rgba(0,0,0.3);
+                    margin-bottom:20px;
+                    position:relative;
+                    left:370px;
+                }
+
+                label{
+                    font-family:sans-serif;
+                    font-size:30px;
+                    font-style:italic;
+                    position:relative;
+                    left:50px;
+                }
+                input#name{
+                    width:300px;
+                    height:30px;
+                    border:1px solid #ddd;
+                    border-radius:3px;
+                    outline:0;
+                    padding:7px;
+                    background-color:#fff;
+                    box-shadow:inset 1px 1px 5px rgba(0,0,0,0.3);
+                    position:relative;
+                    right:50px;
+                }
+        </style>
+      
+    </head>
+    <body>
+        <div id="header_wrapper">
+            <span style="margin:10px 0 0 0;">
+            <img class="logo-img" src="logo_index.jpg" width=70px height="70px"/><br/>
+            
+            </span>       
+            <div id="header" style="margin: -80px 0 0 0; color:white;" align="center">
+           
+            </div>
+            <div id="menu">
+                <div id="menu_left"></span></div>
+                <div class="navbar">
+                    <span style="font-size:x-large;color:darkorange;position:relative;right:200px;">"To improve is to change; to be perfect is to change often."
+                    <div class="dropdown">
+                        <button class="dropbtn">HOME<i class="fa fa-caret-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="#about">ABOUT</a>
+                            <a href="evidence.html"> EVIDENCE</a>
+                            <a href="causes and effects.html" >CAUSES AND EFFECTS</a>
+                            
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">NEWS<i class="fa fa-caret-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="news features.html">NEWS ARTICLES</a>
+                            <a href="Blog.html">BLOG</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">SOLUTIONS<i class="fa fa-caret-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="mitigation.html">MITIGATION AND ADAPTATION</a>
+                            
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">EXPLORE<i class="fa fa-caret-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="images of change.html">IMAGES OF CHANGE</a>
+                            <a href="video.html">VIDEOS</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">RESOURCES<i class="fa fa-caret-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="global vs climate.html">GLOBAL WARMING US CLIMATE CHANGE</a>
+
+                        </div>
+                    </div>
+                    
+
+        
+    <script type="text/javascript">
+    $("#evidence.html").click(function(){
+        window.location.href="evidence.htm";
+    });
+    $("#causes").click(function(){
+        window.location.href="causes and effects.htm";
+    });
+
+    $("#news features").click(function(){
+        window.location.href="news features.htm";
+    });
+    $("#blog").click(function(){
+        window.location.href="blog.htm";
+    });
+
+    $("#mitigation").click(function(){
+        window.location.href="mitigation.htm";
+    });    
+    $("#adaptation").click(function(){
+        window.location.href="adaptation.htm";
+    });
+
+    $("#images").click(function(){
+        window.location.href="images.htm";
+    });
+    $("#videos").click(function(){
+        window.location.href="videos.htm";
+    });
+
+    $("#global vs climate").click(function(){
+        window.location.href="global vs climate.htm";
+    });
+    </script>
+                </div>
+            </div>
+        </div>
+    <section class="bgimage">
+        <div class="background_image">
+            <h1>CLIMATE CHANGE</h1>          
+        </div>
+        <div class="bgcontent" style="position:absolute;left:700px;top:100px;color: black;font-size: 30px;">
+            <MARQUEE SCROLLAMOUNT="5" ONMOUSEOVER="this.setAttribute('SCROLLAMOUNT', 0); this.stop()" ONMOUSEOUT="this.setAttribute('SCROLLAMOUNT', 5); this.start()" >
+            <p >What is Climate Change?</p>
+            <p>How is climate change measured over time?</p>
+            <p>Climate Change vs Global Warming</p>
+            <p>Who is responsible for Climate Change?<br>
+                And Who studies it?</p>
+                <p>Consequences of Climate Change</p>
+                <p>How to fight Climate Change?</p>
+        </div>
+    </MARQUEE>
+    </section> 
+    
+
+    <section id="about">
+        <br><br><br> 
+        <div class="home1" >
+            <h1>What is Climate Change?</h1>
+            <p style="outline: #4CAF50 solid 10px;border-radius:90%;text-align:center;">The term climate refers to the general weather conditions of a place over many years. In the United States, for example, Maine’s climate is cold and snowy in winter while South Florida’s is tropical year-round. Climate change is a significant variation of average weather conditions—say, conditions becoming warmer, wetter, or drier—over several decades or more. It’s that longer-term trend that differentiates climate change from natural weather variability. And while “climate change” and “global warming” are often used interchangeably, global warming—the recent rise in the global average temperature near the earth’s surface—is just one aspect of climate change.</p>
+            <br>
+            
+            <h1>How is climate change measured over time?</h1>
+            <p>Earth-orbiting satellites, remote meteorological stations, and ocean buoys are used to monitor present-day weather and climate, but it’s paleoclimatology data from natural sources like ice cores, tree rings, corals, and ocean and lake sediments that have enabled scientists to extend the earth’s climatic records back millions of years. These records provide a comprehensive look at the long-term changes in the earth’s atmosphere, oceans, land surface, and cryosphere (frozen water systems). Scientists then feed this data into sophisticated climate models that predict future climate trends—with impressive accuracy.</p>
+            <br>
+            <img src="m1.jpg"  style="width:300px;height:300px;border-radius:50%;position:relative;left:200px;">
+            <img src="m2.jpg"  style="width:300px;height:300px;border-radius:50%;position:relative;left:200px;">
+            <img src="m3.png"  style="width:300px;height:300px;border-radius:50%;position:relative;left:200px;">
+
+            <h1>CLIMATE CHANGE VS GLOBAL WARMING</h1>
+            <p>According to the US Geological Survey, global warming is just one aspect of climate change. In fact, they say that global warming refers to the rise in global temperatures due mainly to the increasing concentrations of greenhouse gases in the atmosphere. On the other hand, climate change refers to the increasing changes in the measures of climate over a long period of time – including precipitation, temperature, and wind patterns.</p>
+             <br>
+             <p>Following the same line of thought, according to Climate.Gov, global warming refers only to the Earth’s rising surface temperature, while climate change includes warming and the “side effects” of warming—like melting glaciers, heavier rainstorms, or more frequent drought. Ultimately, this means that global warming is one side of the much larger problem of human-caused climate change.</p>
+              <h1>Who is responsible for Climate Change?</h1>
+              <h1>And Who studies it?</h1>
+              <p>When we talk about climate change, we are often talking about the increase in temperatures linked to industrial activities and in particular the greenhouse effect. Therefore, we sometimes speak of global warming, which is said to be “of anthropogenic origin”. Ultimately, the causes of global warming (at least at its current rate) are not natural but driven by the human economy and industries.</p>
+              <br>
+              <p>Many scientists are studying this phenomenon and trying to understand how activities of human societies are responsible for this heating. These scientists are grouped together in the IPCC (International Group of Experts on Climate), and they regularly publish reports studying the evolution of climate change, such as the one published in late 2018.</p>
+              <h1>Consequences of Climate Change</h1>
+              <p>Climate change affects all regions around the world. Polar ice shields are melting and the sea is rising. In some regions extreme weather events and rainfall are becoming more common while others are experiencing more extreme heat waves and droughts.</p>
+              <ul style="text-align:center;list-style-position:inside;font-size:20px;">
+                  <li>Melting ice and rising seas</li>
+                  <li>Extreme weather, shifting rainfall</li>
+                  <li>Risks for human health</li>
+                  <li>Costs for society and economy</li>
+                  <li>Risks for wildlife</li>
+              </ul>
+
+              <h1>How to fight Climate Change?</h1>
+              <p>To fight climate change, we must first reduce our greenhouse gases (GHG) emissions. To accomplish this, the first step is to embrace renewable energies that are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, waves, and geothermal heat, and avoid creating energy by the burning of fossil fuels. As well, besides swooping the types of energy we produce, we must also make everything more efficient, because even if the energy comes from a renewable source, it still won’t be carbon neutral and will still contribute to the ozone depletion.</p>
+               <br>
+               <p>We need to adapt our lifestyles to overcome these growing challenges that climate change is bringing. For this to happen, we should start to create a worldwide culture of sustainable development, where the energy is wised wisely and efficiently, where a circular economy is a strong bet, as well as durable and eco-friendly products. One thing is for sure, we need to choose responsibly the products we buy because our demand as consumers influences what we are supplied with.</p>
+                <br><br>
+               <p style="font-style: italic;color:turquoise;outline: #4CAF50 ridge 10px;font-size:40px;text-align:center">Scientific evidence for warming of the climate system is unequivocal.</p>
+            </div>
+        </section>
+        <br><br>
+        
+        <section class="footer-clean">        
+       
+        <footer >            
+            <div class="grid_layout">
+            <div class="row_justify">
+            <div class="sitemap_block" >
+                    <h3 >
+                    <a href="index.html">HOME</a>
+                    </h3>
+                    
+                <div class="content">
+                        <a href="#about">About</a>                    
+                        <a href="evidence.html" >Evidence</a>                    
+                        <a href="causes and effects.html" >Causes And Effects</a>
+                  </div>  
+            </div>
+
+            <div class="sitemap_block"  >
+                    <h3 >
+                    <a href="index.html">NEWS</a>
+                    </h3>
+                    <div class="content">
+                    <a href="news features.html" >News Articles</a>
+                    <a href="Blog.html" >Blog</a>
+                    </div>
+            </div>
+
+            <div class="sitemap_block" >
+                    <h3 >
+                    <a href="index.html">SOLUTIONS</a>
+                    </h3>
+                    <div class="content">
+                    <a href="mitigation.html" >Mitigation and Adaptation</a>
+                    </div>
+            </div>
+
+            <div class="sitemap_block" >            
+                    <h3 >
+                    <a href="index.html">EXPLORE</a>
+                    </h3> 
+                    <div class="content">
+                    <a href="images of change.html">Images of Change</a>
+                    <a href="video.html" >Videos</a>
+                    </div>
+            </div>
+
+            <div class="sitemap_block" >
+                    <h3 >
+                    <a href="index.html">RESOURCES</a></h3>
+                    <div class="content">
+                    <a href="global vs climate.html" >Global Warming vs Climate Change</a>
+                    </div>                    
+            </div>
+
+            <div class="item social">
+                <a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a>
+                <a href="https://twitter.com/LOGIN"><i class="icon ion-social-twitter"></i></a>               
+                <a href="https://www.instagram.com/accounts/login/"><i class="icon ion-social-instagram"></i></a>
+                
+                </div>               
+     </div>                 
+    </div>
+
+    <div class="signin" style="position:relative;top:130px;left:150px">
+        <label >Sign up:</label>
+                <br>
+                <input type="email" name="email" id="name" placeholder="Enter Your valid Email:">
+                <br><br>
+                <input type="submit" value="submit" name="submit" id="submit">
+               
+    </div>
+    </footer>
+    
+    </section>
+    
+    </body>
+</html>
