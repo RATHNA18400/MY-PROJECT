@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="logo_index.jpg">
+        <title>newspaper articles</title>
+        
+        <style>
+            * {
+            box-sizing: border-box;
+            }
+
+            .row{
+                margin:auto;
+                width:min(991px,80%);
+            }
+
+            .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+            }
+
+            .row::after {
+            content: "";
+            clear: both;
+            display: table;
+            
+            }
+
+            section.bgimage{
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                font-size:50px;
+                font-weight: bolder;
+                color:sienna;
+                height:90vh;               
+                background-image:url("news_bg1.gif");
+                background-blend-mode:overlay;
+                
+                background-attachment:fixed;
+                background-position:center;
+                background-size:cover
+                }
+
+                .column:hover{
+                    -ms-transform: scale(1.5); 
+                    -webkit-transform: scale(1.5); 
+                    transform: scale(1.5);
+                }
+
+                img{
+                    width:250px;
+                    height:250px;
+                    
+                }
+
+                
+</style>
+</head>
+<body>
+    <section class="bgimage">
+        <h1>NEWS ARTICLES ON CLIMATE CHANGE</h1>
+    </section>
+    <br><br>
+
+
+<div class="row">
+  <div class="column">
+    <img src="newspaper1.jpg"  >
+  </div>
+  <div class="column">
+    <img src="newspaper2.jpg" >
+  </div>
+  <div class="column">
+    <img src="newspaper3.jpg"  >
+  </div>
+</div>
+
+<div class="row">
+    <div class="column">
+      <img src="newspaper4.jpg" >
+    </div>
+    <div class="column">
+      <img src="newspaper5.jpg" >
+    </div>
+    <div class="column">
+      <img src="newspaper6.jpg" >
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img src="newspaper7.jpg" >
+    </div>
+    <div class="column">
+      <img src="newspaper8.jpeg" >
+    </div>
+    <div class="column">
+      <img src="newspaper9.jpg" >
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img src="newspaper10.png" >
+    </div>
+    <div class="column">
+      <img src="newspaper11.jpg" >
+    </div>
+    <div class="column">
+      <img src="newspaper12.jpg" >
+    </div>
+  </div>
+  </body>
+</html>
